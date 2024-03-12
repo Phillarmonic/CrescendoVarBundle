@@ -1,0 +1,10 @@
+services:
+
+  Phillarmonic\CrescendoVarBundle\DependencyInjection\TryIntEnvVarProcessor:
+    tags: [ 'container.env_var_processor' ]
+
+  Phillarmonic\CrescendoVarBundle\DependencyInjection\TryBoolEnvVarProcessor:
+    tags: [ 'container.env_var_processor' ]
+
+  Phillarmonic\CrescendoVarBundle\DependencyInjection\ExplodeEnvVarProcessor:
+    tags: [ 'container.env_var_processor' ]
